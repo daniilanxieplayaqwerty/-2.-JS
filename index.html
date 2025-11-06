@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Підрахунок літер — Завдання 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Завдання 1 — Підрахунок літери</h1>
+
+      <section class="card">
+        <h2>Інтерактивна перевірка</h2>
+        <label>
+          Перший рядок
+          <input
+            id="firstInput"
+            type="text"
+            placeholder="Slow and steady wins the race"
+          />
+        </label>
+        <label>
+          Другий рядок
+          <input
+            id="secondInput"
+            type="text"
+            placeholder="You can say that again"
+          />
+        </label>
+        <label>
+          Яку літеру рахувати?
+          <input id="letterInput" type="text" maxlength="1" value="a" />
+        </label>
+        <button id="runBtn">Порахувати</button>
+
+        <pre id="result" class="result"></pre>
+      </section>
+    </main>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
